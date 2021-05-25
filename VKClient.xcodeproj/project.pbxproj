@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02C7B37265AA609001BC499 /* MyGroupsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02C7B36265AA609001BC499 /* MyGroupsTableController.swift */; };
 		F0C610D7265A710200108425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C610D6265A710200108425 /* AppDelegate.swift */; };
 		F0C610D9265A710200108425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C610D8265A710200108425 /* SceneDelegate.swift */; };
-		F0C610DB265A710200108425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C610DA265A710200108425 /* ViewController.swift */; };
 		F0C610DE265A710200108425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C610DC265A710200108425 /* Main.storyboard */; };
 		F0C610E0265A710200108425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C610DF265A710200108425 /* Assets.xcassets */; };
 		F0C610E3265A710200108425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C610E1265A710200108425 /* LaunchScreen.storyboard */; };
+		F0C610F6265A72A900108425 /* AuthorisationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C610F5265A72A900108425 /* AuthorisationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F02C7B36265AA609001BC499 /* MyGroupsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableController.swift; sourceTree = "<group>"; };
 		F0C610D3265A710200108425 /* VKClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C610D6265A710200108425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0C610D8265A710200108425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F0C610DA265A710200108425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0C610DD265A710200108425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0C610DF265A710200108425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0C610E2265A710200108425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0C610E4265A710200108425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C610F5265A72A900108425 /* AuthorisationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				F0C610D6265A710200108425 /* AppDelegate.swift */,
 				F0C610D8265A710200108425 /* SceneDelegate.swift */,
-				F0C610DA265A710200108425 /* ViewController.swift */,
+				F0C610F5265A72A900108425 /* AuthorisationViewController.swift */,
 				F0C610DC265A710200108425 /* Main.storyboard */,
+				F02C7B36265AA609001BC499 /* MyGroupsTableController.swift */,
 				F0C610DF265A710200108425 /* Assets.xcassets */,
 				F0C610E1265A710200108425 /* LaunchScreen.storyboard */,
 				F0C610E4265A710200108425 /* Info.plist */,
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C610DB265A710200108425 /* ViewController.swift in Sources */,
 				F0C610D7265A710200108425 /* AppDelegate.swift in Sources */,
 				F0C610D9265A710200108425 /* SceneDelegate.swift in Sources */,
+				F02C7B37265AA609001BC499 /* MyGroupsTableController.swift in Sources */,
+				F0C610F6265A72A900108425 /* AuthorisationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
